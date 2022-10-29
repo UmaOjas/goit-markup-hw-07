@@ -1,0 +1,28 @@
+.category-list {
+  display: flex;
+  gap: 30px;
+}
+.category-item {
+  width: calc((100% - 60px) / 3);
+}
+.category-pic {
+  position: relative;
+}
+.category-text {
+  width: 370px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: var(--second-basic-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}
